@@ -1,4 +1,62 @@
+body {
+  background-image: url("../media/worldmap.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
+}
+
+.body {
+  font-family: "Poppins", sans-serif;
+}
+
 h1 {
-  color: blueviolet;
+  color: rgba(50, 50, 50);
+  font-size: 48px;
+  font-weight: 600;
   text-align: center;
+  margin: 10px;
+}
+
+h2 {
+  color: rgb(75, 75, 75);
+  margin: 5px;
+}
+
+.container {
+  background: linear-gradient(
+    -180deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(100, 100, 100, 0.2) 100%
+  );
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 50, 0.3) 0px 3px 10px 0px;
+  margin: 0 auto;
+  max-width: 250px;
+  padding-bottom: 10px;
+}
+
+select {
+  background-color: rgb(200, 200, 200, 0.6);
+  border-color: rgba(200, 200, 200, 0.8);
+  border-radius: 3px;
+  padding: 10px 20px;
+  text-align: left;
+  width: 100%;
+}
+
+.city {
+  padding: 5px 20px;
+}
+
+footer {
+  color: aqua;
+  color: #a0a6d5;
+  font-size: 10px;
+  text-align: center;
+}
+
+a {
+  color: aquamarine;
+  color: #868aad;
+  text-decoration: none;
 }
